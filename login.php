@@ -85,7 +85,7 @@ img.image {
   </div>
 
                 <div class="container">
-                    <button type="button" class="cancelbtn"><a href="register.php">Register</a></button></div>
+                    <button type="button" class="cancelbtn">Register</button></div>
   </div></center>
 	</form>
 </body>
