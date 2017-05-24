@@ -3,7 +3,11 @@ include 'connect.php';
 ?>
 <html>
 <head>
-
+<script type="text/javascript">
+function goToURL(val){
+location.href = val;
+}
+</script>
 <style>
 /* Bordered form */
 form {
@@ -85,7 +89,7 @@ img.image {
   </div>
 
                 <div class="container">
-                    <button type="button" class="cancelbtn">Register</button></div>
+                    <button type="button" class="cancelbtn" onclick="javascript:goToURL('register.php')">Register</button></div>
   </div></center>
 	</form>
 </body>
